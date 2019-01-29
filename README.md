@@ -1,6 +1,6 @@
 # Gulp Inject Inline
 
-![build](https://example.gitlab.com/amy/inject-inline-npm-module/badges/master/build.svg)
+![build](https://git.xvrqt.com/amy/inject-inline-npm-module/badges/master/build.svg)
 
 This plugin searches the files it is given for a control sequence in the format:
 `[ inject-inline file.css ]`

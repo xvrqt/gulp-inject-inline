@@ -1,6 +1,6 @@
 {
   "name": "gulp-inject-inline",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Use in your Gulp workflow to inject a file inside another file at a specified control sequence.",
   "main": "index.js",
   "scripts": {
