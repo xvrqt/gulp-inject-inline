@@ -1,0 +1,5 @@
+# Ignore NPM Packages
+node_modules/
+
+# Ignore Mac OS Cruft
+.DS_Store

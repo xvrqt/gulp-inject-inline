@@ -1,0 +1,34 @@
+stages:
+    - build
+    - test
+    - push
+
+image: node:11.4
+
+cache:
+  paths:
+    - node_modules/
+
+build:
+  stage: build
+  tags:
+    - docker
+  script:
+    - npm install
+
+test:
+  stage: test
+  tags:
+    - docker
+  script:
+    - npm run test
+      
+push to npm:
+  stage: push
+  tags:
+    - docker
+  script:
+    - npm-cli-login
+    - npm publish
+  only:
+  - master

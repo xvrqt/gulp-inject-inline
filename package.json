@@ -1,0 +1,37 @@
+{
+  "name": "gulp-inject-inline",
+  "version": "0.5.0",
+  "description": "Use in your Gulp workflow to inject a file inside another file at a specified control sequence.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https@git.xvrqt.com:amy/inject-inline-npm-module.git"
+  },
+  "keywords": [
+    "gulp",
+    "inject",
+    "web",
+    "components"
+  ],
+  "author": "xvrqt <git@xvrqt.com> (https://xvrqt.com)",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://git.xvrqt.com/amy/inject-inline-npm-module/issues"
+  },
+  "homepage": "https://git.xvrqt.com/amy/inject-inline-npm-module",
+  "devDependencies": {
+    "event-stream": "^4.0.1",
+    "fs": "0.0.1-security",
+    "mocha": "^5.2.0",
+    "npm-cli-login": "^0.1.1",
+    "should": "^13.2.3",
+    "vinyl": "^2.2.0"
+  },
+  "dependencies": {
+    "plugin-error": "^1.0.1",
+    "through2": "^3.0.0"
+  }
+}
