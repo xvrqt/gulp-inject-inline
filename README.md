@@ -27,7 +27,7 @@ export class MyComponent extends HTMLElement {
 
     /* CSS */
     private static styles: string = `
-        [ inject-css myComponent.css ]
+        [ inject-inline myComponent.css ]
     `;
 
     constructor() {
