@@ -30,4 +30,4 @@ push to npm:
   script:
     - npm run publish
   only:
-  - master
+  - tags
