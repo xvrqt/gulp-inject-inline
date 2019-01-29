@@ -28,7 +28,6 @@ push to npm:
   tags:
     - docker
   script:
-    - npm-cli-login
-    - npm publish
+    - npm run publish
   only:
   - master

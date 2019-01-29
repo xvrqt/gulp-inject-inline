@@ -123,7 +123,7 @@ h1 {
 }
 ```
 
-Will produced:
+Will produce:
 
 `output.html`
 ```html

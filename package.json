@@ -4,7 +4,8 @@
   "description": "Use in your Gulp workflow to inject a file inside another file at a specified control sequence.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/index.js"
+    "test": "mocha test/index.js",
+    "publish": "npm-cli-login && npm publish"
   },
   "repository": {
     "type": "git",
