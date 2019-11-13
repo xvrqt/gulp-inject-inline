@@ -1,19 +1,13 @@
 name: Node CI
 
-on:
-  pull_request:
-    branches:
-      - master
-  push:
-    branches: 
-      - master
+on: [push]
 
 jobs:
   build:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        node-version: ['latest']
+        node-version: ['12.x']
         os: [ubuntu-latest, windows-latest, macOS-latest]
 
     steps:
