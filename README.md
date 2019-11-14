@@ -1,7 +1,5 @@
 # Gulp Inject Inline
 
-![build](https://git.xvrqt.com/amy/inject-inline-npm-module/badges/master/build.svg)
-
 This plugin searches the files it is given for a control sequence in the format:
 `[ inject-inline file.css ]`
 
@@ -96,7 +94,7 @@ window.customElements.define("my-component", MyComponent);
 Submit issues, request features, check out the repo here: [https://git.xvrqt.com/amy/inject-inline-npm-module](https://git.xvrqt.com/amy/inject-inline-npm-module)
 
 ## White Space
-It will not preserve whitespace.
+It will not preserve existing whitespace.
 
 `index.html`
 ```html
